@@ -48,7 +48,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <minimumMavenVersion>3.1</minimumMavenVersion>
-        <jumi-actors.version>0.1.196</jumi-actors.version>
+        <jumi-actors.version>1.0-SNAPSHOT</jumi-actors.version>
         <testTempDir>${project.build.directory}/tmp</testTempDir>
     </properties>
 
@@ -135,7 +135,7 @@
             <!-- Jumi Actors -->
 
             <dependency>
-                <groupId>fi.jumi</groupId>
+                <groupId>fi.jumi.actors</groupId>
                 <artifactId>jumi-actors</artifactId>
                 <version>${jumi-actors.version}</version>
             </dependency>
@@ -448,7 +448,7 @@
             <plugins>
 
                 <plugin>
-                    <groupId>fi.jumi</groupId>
+                    <groupId>fi.jumi.actors</groupId>
                     <artifactId>jumi-actors-maven-plugin</artifactId>
                     <version>${jumi-actors.version}</version>
                     <configuration>

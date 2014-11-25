@@ -20,7 +20,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>fi.jumi</groupId>
+            <groupId>fi.jumi.actors</groupId>
             <artifactId>jumi-actors</artifactId>
         </dependency>
         <dependency>
@@ -93,7 +93,7 @@
             <!-- Event stubs -->
 
             <plugin>
-                <groupId>fi.jumi</groupId>
+                <groupId>fi.jumi.actors</groupId>
                 <artifactId>jumi-actors-maven-plugin</artifactId>
                 <executions>
                     <execution>
@@ -131,7 +131,7 @@
                             <artifactSet>
                                 <excludes>
                                     <!-- Regular dependencies (transitive) -->
-                                    <exclude>fi.jumi:jumi-actors</exclude>
+                                    <exclude>fi.jumi.actors:jumi-actors</exclude>
                                     <exclude>fi.jumi:jumi-api</exclude>
                                 </excludes>
                             </artifactSet>
